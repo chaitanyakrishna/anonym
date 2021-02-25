@@ -20,7 +20,7 @@
 ##### apt-get install tor
 ##### servie tor start
 
-### Navigate inside /src/bin/linux/
+#### Navigate inside /src/bin/linux/
 ### change executable permissions to anonym
 ##### chmod a+x anonym
 #### Run the anonym binary 
