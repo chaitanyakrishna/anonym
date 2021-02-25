@@ -5,8 +5,8 @@
 ##### git clone https://github.com/diljith369/anonym.git
 ##### go get github.com/gocolly/colly
 ##### go get github.com/gocolly/colly/proxy
-##### github.com/beevik/etree
-##### github.com/gorilla/mux
+##### go get github.com/beevik/etree
+##### go get github.com/gorilla/mux
 
 ##### Make sure that TOR is running in your machine
 
@@ -20,8 +20,11 @@
 ##### apt-get install tor
 ##### servie tor start
 
-### Download binary files from corresponding OS folder 
+### Navigate inside /src/bin/linux/
+### change executable permissions to anonym
+##### chmod a+x anonym
 #### Run the anonym binary 
+##### ./anonym
 #### On your favourite browser go to http://127.0.0.1:7777
 
 ### Prerequisites
@@ -31,5 +34,5 @@
 ### Built With
 #### Go 
 
-### Author
+### Original Author
 #### * **Diljith S** - *Initial work* - (https://github.com/diljith369)
